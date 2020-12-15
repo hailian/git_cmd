@@ -273,4 +273,9 @@ git push origin :refs/tags/<tagName>
 ```shell
 git push origin <tagName>
 ```
+#### 5.5 同步子模块
+
+```shell
+git submodule update --init
+```
 
